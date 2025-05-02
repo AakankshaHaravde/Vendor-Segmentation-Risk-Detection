@@ -6,6 +6,8 @@ import seaborn as sns
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
+import sys
+import os
 
 def run_kmeans(X_scaled, n_clusters=4, random_state=42):
     """
@@ -48,3 +50,8 @@ def reduce_pca(X_scaled, n_components=2):
     pca = PCA(n_components=n_components)
     components = pca.fit_transform(X_scaled)
     return pd.DataFrame(components, columns=[f"PCA{i+1}" for i in range(n_components)])
+
+
+if __name__ == "__main__":
+    print("Module test mode: clustering_models")
+

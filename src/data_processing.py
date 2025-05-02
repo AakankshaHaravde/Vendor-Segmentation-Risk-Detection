@@ -2,6 +2,8 @@
 
 import pandas as pd
 import numpy as np
+import sys
+import os
 from sklearn.preprocessing import LabelEncoder
 
 def load_data(path):
@@ -36,4 +38,9 @@ def full_pipeline(path):
     df = clean_award_data(df)
     df = add_log_award(df)
     df, encoders = encode_categoricals(df)
-    return df
+    return df   
+
+if __name__ == "__main__":
+    print("This file is running directly!")
+
+   
