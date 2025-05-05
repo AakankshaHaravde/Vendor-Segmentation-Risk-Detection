@@ -11,8 +11,6 @@ You can:
 To launch: streamlit run 04_dashboard.py
 
 Author: Aakanksha Haravde
-        Pullangari Vedaprakash
-        Atharva Shailendra Patil
 Date: 1st May 2025
 """
 
