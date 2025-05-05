@@ -1,4 +1,15 @@
-## Import Libraries
+"""
+anomaly_detection.py
+----------------------
+This script detects abnormal vendors that behave differently from normal patterns.
+
+Includes:
+- Using Isolation Forest for anomaly detection
+- Labeling vendors as 'Normal' or 'Anomaly'
+- Visualizing anomalies using PCA components
+
+"""
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
