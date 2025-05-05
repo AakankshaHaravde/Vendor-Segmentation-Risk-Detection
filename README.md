@@ -1,6 +1,6 @@
 # Vendor Segmentation & Procurement Risk Detection
 
-This project groups vendors based on how much they were paid and how they performed.   This project uses machine learning to group vendors based on their transaction behavior and to find any unusual or risky vendor activity. It uses unsupervised learning, which means we don't tell the model what to look for — it finds patterns by itself.
+This project groups vendors based on how much they were paid and how they performed. This project uses machine learning to group vendors based on their transaction behavior and to find any unusual or risky vendor activity. It uses unsupervised learning, which means we don't tell the model what to look for — it finds patterns by itself.
 
 ---
 
