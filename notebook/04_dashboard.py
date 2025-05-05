@@ -1,4 +1,21 @@
-## Import Libraries
+"""
+04_dashboard.py
+-----------------
+This is the Streamlit dashboard for visualizing vendor clusters and anomalies.
+
+You can:
+- Upload and explore processed vendor data
+- View clustering and anomaly detection results
+- Understand segmentation insights through interactive plots
+
+To launch: streamlit run 04_dashboard.py
+
+Author: Aakanksha Haravde
+        Pullangari Vedaprakash
+        Atharva Shailendra Patil
+Date: 1st May 2025
+"""
+
 
 import streamlit as st
 import pandas as pd
