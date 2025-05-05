@@ -1,4 +1,20 @@
-##  Import Libraries
+"""
+data_processing.py
+-------------------
+This script handles the full data cleaning and transformation pipeline for vendor segmentation.
+
+Includes:
+- Loading and cleaning vendor award data
+- Removing invalid records
+- Log transformation of award amounts
+- Label encoding categorical features
+
+Author: Aakanksha Haravde
+        Pullangari Vedaprakash
+        Atharva Shailendra Patil
+Date: 1st May 2025
+"""
+
 
 import pandas as pd
 import numpy as np
