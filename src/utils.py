@@ -1,4 +1,15 @@
-## Import Libraries
+"""
+utils.py
+---------
+Utility functions to support analysis and visualization.
+
+Includes:
+- Award amount distribution plots
+- Saving processed datasets
+- Summarizing clusters (mean values per group)
+
+"""
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
