@@ -1,4 +1,16 @@
-## Import Laibraries
+"""
+clustering_models.py
+---------------------
+This script applies unsupervised learning to group vendors using KMeans clustering.
+
+Includes:
+- Running KMeans with custom cluster size
+- Elbow plot for selecting optimal clusters
+- Silhouette score calculation
+- PCA dimensionality reduction for plotting
+
+"""
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
