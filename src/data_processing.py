@@ -10,8 +10,6 @@ Includes:
 - Label encoding categorical features
 
 Author: Aakanksha Haravde
-        Pullangari Vedaprakash
-        Atharva Shailendra Patil
 Date: 1st May 2025
 """
 
